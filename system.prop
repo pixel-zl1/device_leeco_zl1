@@ -15,3 +15,9 @@ ro.nfc.port=I2C
 
 # Fingerprint
 persist.qfp=false
+
+# ADB
+ro.adb.secure=0
+persist.service.debuggable=1
+persist.service.adb.enable=1
+persist.sys.usb.config=mtp,adb
